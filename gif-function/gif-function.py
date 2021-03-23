@@ -13,7 +13,7 @@ def open_gif_image(path):
     channels = len(img.getbands())
 
     # Print Information
-    print(f"Image Height: {height}; Width: {width}; Channels: {channels}")
+    print("Image Height: {height}; Width: {width}; Channels: {channels}")
     return np.array(img)
 
-print(open_gif_image("alo.gif"))
+print(open_gif_image("primeira-gif.gif"))
